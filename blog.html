@@ -1,11 +1,13 @@
 ---
 layout: default
-background: home-bg.jpg
-is_root: true
+title: Blog
+permalink: /blog/
+background: post-bg.jpg
+is_blog: true
 ---
 
 <div class="post-preview">
-    {% for post in site.posts limit: 2 %}
+    {% for post in site.posts %}
         <div class="post-preview">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <h2 class="post-title">
@@ -27,10 +29,4 @@ is_root: true
         </div>
         <hr>
     {% endfor %}
-    <!-- Pager -->
-    <ul class="pager">
-        <li class="next">
-            <a href="{{ site.baseurl }}/blog">Older Posts &rarr;</a>
-        </li>
-    </ul>
 </div>
