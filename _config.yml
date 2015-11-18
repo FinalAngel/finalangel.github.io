@@ -1,0 +1,13 @@
+# Site settings
+title: Your awesome title
+email: angelo.dini@divio.ch
+name: My Bootstrap Theme
+description: My Description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: finalange
+github_username:  finalangel
+author: Angelo Dini
+
+# Build settings
+markdown: kramdown
